@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../result_dashboard.Dataset"
+    },
+    "byConnection": null
+  }
+}

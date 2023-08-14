@@ -1,0 +1,1445 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 3298.33203125,
+        "y": 244
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1679.9,
+            "y": 1390
+          },
+          "nodeIndex": "fact_results",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2157.1,
+            "y": 1167.4
+          },
+          "nodeIndex": "result_actor_types",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1261.3,
+            "y": 969.2
+          },
+          "nodeIndex": "result_capdevs",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1754.6,
+            "y": 951.4
+          },
+          "nodeIndex": "result_centers",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1903.1,
+            "y": 2070
+          },
+          "nodeIndex": "result_countries",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1215.8,
+            "y": 0
+          },
+          "nodeIndex": "result_initiatives",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1369.6,
+            "y": 484.6
+          },
+          "nodeIndex": "result_innovations_dev",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 838,
+            "y": 1881.6
+          },
+          "nodeIndex": "result_innovations_use",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2490.8,
+            "y": 682.8
+          },
+          "nodeIndex": "result_institution",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 837.2,
+            "y": 1199.9
+          },
+          "nodeIndex": "result_kp",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 485.5,
+            "y": 715.3
+          },
+          "nodeIndex": "result_kp_altmetrics",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 418.6,
+            "y": 1049.1
+          },
+          "nodeIndex": "result_kp_authors",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 790.8,
+            "y": 1552.9
+          },
+          "nodeIndex": "result_kp_keywords",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3292,
+            "y": 1245.4
+          },
+          "nodeIndex": "result_links",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2575.7,
+            "y": 1265.9
+          },
+          "nodeIndex": "result_main_evidences",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2873.4,
+            "y": 198.2
+          },
+          "nodeIndex": "result_np_projects",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1256.6,
+            "y": 1419.6
+          },
+          "nodeIndex": "result_policy_changes",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2098.5,
+            "y": 1551.9
+          },
+          "nodeIndex": "result_regions",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1484.5,
+            "y": 1756.7
+          },
+          "nodeIndex": "result_single_row_evidences",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3690.3,
+            "y": 86
+          },
+          "nodeIndex": "Last_updated",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4088.5,
+            "y": 0
+          },
+          "nodeIndex": "results_toc_results",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4492.9,
+            "y": 190.2
+          },
+          "nodeIndex": "result_kp_comodities",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4897.2,
+            "y": 118.2
+          },
+          "nodeIndex": "result_kp_metadata",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 5301.6,
+            "y": 202.2
+          },
+          "nodeIndex": "glossary",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 6110.3,
+            "y": 118.5
+          },
+          "nodeIndex": "fact_toc",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 6514.6,
+            "y": 0
+          },
+          "nodeIndex": "toc_action_areas",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 6489.5,
+            "y": 584.9
+          },
+          "nodeIndex": "toc_sdgs",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 5705.9,
+            "y": 84
+          },
+          "nodeIndex": "toc_impact_areas",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 6919,
+            "y": 166.2
+          },
+          "nodeIndex": "results_concatenated_values",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 8536.4,
+            "y": 116.2
+          },
+          "nodeIndex": "aecd",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 7323.4,
+            "y": 154.2
+          },
+          "nodeIndex": "result_partners nodes",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "KRS_concatenated_values",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "result_ip_results_elements",
+          "nodeLineageTag": "e98335c8-6b49-43ac-bc93-6c40027c80a6",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "result_innovation_package",
+          "nodeLineageTag": "614b5370-abce-495c-a20c-591a1f0c9fcf",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "result_ip_current_actors",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "result_actors",
+          "nodeLineageTag": "1090b339-02fc-4a4b-ba8e-949fd2c91d58",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "result_actors_unpivot",
+          "nodeLineageTag": "c6fa79ef-3375-48ab-8735-2ff6b95b8bc0",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "result_ip_experts",
+          "nodeLineageTag": "8f7dae80-8331-4c4c-950f-e534cd9648b7",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "IPSR_CI_action_area_outcomes",
+          "nodeLineageTag": "a3ef0c64-cfeb-46b1-8b65-b063ee66ecc8",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "IPSR_CI_impact_area_target",
+          "nodeLineageTag": "23634df3-c21b-47cc-bc68-16917b7d8cb8",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "IPSR_CI_sdg_targets",
+          "nodeLineageTag": "a5f66685-44a8-4ca8-b9b1-9ed878350aca",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "result_users_by_institution_type",
+          "nodeLineageTag": "0fd9bab7-c316-4a5c-8194-330a2e519326",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "Genebanks",
+          "nodeLineageTag": "40d70555-8f8f-4f38-a9e2-932a4776ef7f",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 60,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    },
+    {
+      "ordinal": 1,
+      "scrollPosition": {
+        "x": 2307.4024339441635,
+        "y": 831.70675509236878
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 25.793554006968861,
+            "y": 363.2517530196389
+          },
+          "nodeIndex": "result_countries",
+          "nodeLineageTag": "85ee8e68-e301-44b9-a072-2d0ce4611ca6",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 11
+        },
+        {
+          "location": {
+            "x": 1053.3769001750488,
+            "y": 791.78738504251589
+          },
+          "nodeIndex": "fact_results",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 34
+        },
+        {
+          "location": {
+            "x": 27.596817931612634,
+            "y": 109.97823385587577
+          },
+          "nodeIndex": "result_regions",
+          "nodeLineageTag": "5da3a4a0-4df1-4ef5-aa86-13a86bd737a9",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 20
+        },
+        {
+          "location": {
+            "x": 1961.5185478705839,
+            "y": 343.04321706645231
+          },
+          "nodeIndex": "result_initiatives",
+          "nodeLineageTag": "e8a27174-ee82-468f-9c5c-f6ebf144fb2a",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 12
+        },
+        {
+          "location": {
+            "x": 27.892575897719468,
+            "y": 1075.5069543276211
+          },
+          "nodeIndex": "result_actor_types",
+          "nodeLineageTag": "9a520639-6456-4ce9-8515-b3d5e2e2f8de",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 13
+        },
+        {
+          "location": {
+            "x": 621.80507725974041,
+            "y": 4.0002560722838183
+          },
+          "nodeIndex": "result_capdevs",
+          "nodeLineageTag": "dbe79c8d-026c-4237-9a65-1416beb92dcf",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 22
+        },
+        {
+          "location": {
+            "x": 6.7501497548617522,
+            "y": 1691.290035826069
+          },
+          "nodeIndex": "result_centers",
+          "nodeLineageTag": "3b82f401-a455-4c49-a728-ccd8d5ca171e",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 14
+        },
+        {
+          "location": {
+            "x": 354.81058281384253,
+            "y": 15.998847674722846
+          },
+          "nodeIndex": "result_innovations_dev",
+          "nodeLineageTag": "3befb41e-6530-4586-a10a-820fa39d0027",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 32
+        },
+        {
+          "location": {
+            "x": 1648.1186731182736,
+            "y": 6.0003841084257274
+          },
+          "nodeIndex": "result_innovations_use",
+          "nodeLineageTag": "47f7a827-1584-4362-8f57-bf469630d714",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 15
+        },
+        {
+          "location": {
+            "x": 22.792785790117392,
+            "y": 825.25188105578059
+          },
+          "nodeIndex": "result_institution",
+          "nodeLineageTag": "dff24220-0198-49de-833b-fa49a659c0b2",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 16
+        },
+        {
+          "location": {
+            "x": 1451.4181432895034,
+            "y": 1450.9506789691884
+          },
+          "nodeIndex": "result_kp",
+          "nodeLineageTag": "b9e7bcb5-e37b-4493-a55d-7c5c376ee7e7",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 26
+        },
+        {
+          "location": {
+            "x": 1721.3508044995788,
+            "y": 1446.6241370919633
+          },
+          "nodeIndex": "result_kp_altmetrics",
+          "nodeLineageTag": "e92393ba-3dbd-4032-bb90-9f87dd5edaaf",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 17
+        },
+        {
+          "location": {
+            "x": 1957.7288269855828,
+            "y": 905.06000708863326
+          },
+          "nodeIndex": "result_kp_authors",
+          "nodeLineageTag": "c1f4d2f5-1f98-4efd-bff8-960e9d18c582",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 27
+        },
+        {
+          "location": {
+            "x": 2251.8137499629511,
+            "y": 1338.8594201810338
+          },
+          "nodeIndex": "result_kp_keywords",
+          "nodeLineageTag": "6ff21bb4-2938-488e-af13-b660bae207b8",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 18
+        },
+        {
+          "location": {
+            "x": 25.729131992235097,
+            "y": 621.69861841838122
+          },
+          "nodeIndex": "result_links",
+          "nodeLineageTag": "69610f66-3344-455d-bc84-d3404e1b90e3",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 21
+        },
+        {
+          "location": {
+            "x": 18.768714995438643,
+            "y": 1327.269165934938
+          },
+          "nodeIndex": "result_np_projects",
+          "nodeLineageTag": "c34ee9f6-a250-40db-9fb7-0b7eb89db4e4",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 19
+        },
+        {
+          "location": {
+            "x": 877.80021188634794,
+            "y": 14.000512144567633
+          },
+          "nodeIndex": "result_policy_changes",
+          "nodeLineageTag": "321de942-3c31-4ed6-88c8-f631f6fc3223",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 23
+        },
+        {
+          "location": {
+            "x": 1130.0033289396897,
+            "y": 14.000000000000007
+          },
+          "nodeIndex": "result_main_evidences",
+          "nodeLineageTag": "e5392b4f-84a3-4eea-8158-30481b5c7e82",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 24
+        },
+        {
+          "location": {
+            "x": 1385.594450526788,
+            "y": 48.5240112231898
+          },
+          "nodeIndex": "result_single_row_evidences",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 25
+        },
+        {
+          "location": {
+            "x": 2357.5064169968659,
+            "y": 374.64257166851155
+          },
+          "nodeIndex": "results_toc_results",
+          "nodeLineageTag": "d77c1629-58c5-4b96-9111-e23e9f00f127",
+          "size": {
+            "height": 280.24149318223419,
+            "width": 234
+          },
+          "zIndex": 29
+        },
+        {
+          "location": {
+            "x": 1956.2543834624564,
+            "y": 743.62354776247366
+          },
+          "nodeIndex": "result_kp_comodities",
+          "nodeLineageTag": "f0dcabc2-2c9a-4c85-a123-4da1e8fe5995",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 28
+        },
+        {
+          "location": {
+            "x": 1984.8712508464637,
+            "y": 1456.7077337374726
+          },
+          "nodeIndex": "result_kp_metadata",
+          "nodeLineageTag": "62dc7c2c-1e63-49f0-9e91-e0282289cd39",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 2718.1866629447786,
+            "y": 358.45162885463753
+          },
+          "nodeIndex": "fact_toc",
+          "nodeLineageTag": "e71f94d3-f1de-452d-88af-a2bec5b4852f",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 2727.1905837864733,
+            "y": 0
+          },
+          "nodeIndex": "toc_action_areas",
+          "nodeLineageTag": "5cda5b2d-c2d4-4d83-b3fe-b89aa9be3296",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 3087.7133078805487,
+            "y": 0
+          },
+          "nodeIndex": "toc_sdgs",
+          "nodeLineageTag": "b08024d1-40d4-40d4-84a0-79a438df5e03",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 3095.4174923566115,
+            "y": 408.51125776059018
+          },
+          "nodeIndex": "toc_impact_areas",
+          "nodeLineageTag": "3daef8fc-b55e-4531-a9c7-0647f973ec75",
+          "size": {
+            "height": 245.18133370552221,
+            "width": 234
+          },
+          "zIndex": 30
+        },
+        {
+          "location": {
+            "x": 1957.7330030934509,
+            "y": 5.29098497834417
+          },
+          "nodeIndex": "results_concatenated_values",
+          "nodeLineageTag": "b0e7fa5b-8e31-40fc-8705-fe35995e9999",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 1952.4271736129997,
+            "y": 1132.721944929616
+          },
+          "nodeIndex": "result_partners nodes",
+          "nodeLineageTag": "7aba8b06-84e9-4622-b9ae-0c23503867ba",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 2343.3030249576145,
+            "y": 0
+          },
+          "nodeIndex": "aecd",
+          "nodeLineageTag": "509cbb2b-80ad-4353-9310-14fd4de7e419",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 31
+        },
+        {
+          "location": {
+            "x": 322.03290528847032,
+            "y": 1773.1195857565422
+          },
+          "nodeIndex": "result_innovation_package",
+          "nodeLineageTag": "614b5370-abce-495c-a20c-591a1f0c9fcf",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 37
+        },
+        {
+          "location": {
+            "x": 1280.3895450545231,
+            "y": 1901.5503438652095
+          },
+          "nodeIndex": "result_ip_results_elements",
+          "nodeLineageTag": "e98335c8-6b49-43ac-bc93-6c40027c80a6",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 36
+        },
+        {
+          "location": {
+            "x": 1622.4114392347897,
+            "y": 1903.3202174699468
+          },
+          "nodeIndex": "result_ip_current_actors",
+          "nodeLineageTag": "192d6b2e-0f53-4620-9256-92b9f91d6ed5",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 35
+        },
+        {
+          "location": {
+            "x": 583.40369094411324,
+            "y": 1764.5760571033941
+          },
+          "nodeIndex": "result_actors",
+          "nodeLineageTag": "1090b339-02fc-4a4b-ba8e-949fd2c91d58",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 33
+        },
+        {
+          "location": {
+            "x": 862.94272489490515,
+            "y": 1981.4709743406493
+          },
+          "nodeIndex": "result_ip_experts",
+          "nodeLineageTag": "8f7dae80-8331-4c4c-950f-e534cd9648b7",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 1280.3021952969359,
+            "y": 2394.3569545486853
+          },
+          "nodeIndex": "IPSR_CI_sdg_targets",
+          "nodeLineageTag": "a5f66685-44a8-4ca8-b9b1-9ed878350aca",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 809.95641909274138,
+            "y": 2353.1229786614435
+          },
+          "nodeIndex": "result_users_by_institution_type",
+          "nodeLineageTag": "0fd9bab7-c316-4a5c-8194-330a2e519326",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 1
+        }
+      ],
+      "name": "result dashboard",
+      "zoomValue": 111.33731863187273,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    },
+    {
+      "ordinal": 2,
+      "scrollPosition": {
+        "x": 0,
+        "y": 876.6052175825937
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1024.339274577186,
+            "y": 905.72272135945241
+          },
+          "nodeIndex": "fact_results",
+          "nodeLineageTag": "6aff8404-2a8c-4238-80d6-0858109a948d",
+          "size": {
+            "height": 128,
+            "width": 349.15146500000014
+          },
+          "zIndex": 22,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 2267.5320747983878,
+            "y": 925.91958765207562
+          },
+          "nodeIndex": "fact_toc",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 33,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1613.2279464861751,
+            "y": 850.29472680644835
+          },
+          "nodeIndex": "result_countries",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 34,
+          "expandedHeight": 248
+        },
+        {
+          "location": {
+            "x": 342.14408199999883,
+            "y": 679.58968699999843
+          },
+          "nodeIndex": "result_regions",
+          "size": {
+            "height": 104,
+            "width": 266.85851871543724
+          },
+          "zIndex": 29,
+          "expandedHeight": 272
+        },
+        {
+          "location": {
+            "x": 1612.4900884861747,
+            "y": 969.56150380644817
+          },
+          "nodeIndex": "result_initiatives",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 20,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 350.23217999999872,
+            "y": 1136.5170169999994
+          },
+          "nodeIndex": "result_institution",
+          "size": {
+            "height": 104,
+            "width": 257.88339411866139
+          },
+          "zIndex": 31,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1612.145410486175,
+            "y": 1133.8250198064484
+          },
+          "nodeIndex": "result_actor_types",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 6,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 1606.6097044861756,
+            "y": 568.58111980644867
+          },
+          "nodeIndex": "result_np_projects",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 7,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1613.771995486175,
+            "y": 1252.1257978064482
+          },
+          "nodeIndex": "result_centers",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 26,
+          "expandedHeight": 248
+        },
+        {
+          "location": {
+            "x": 1618.9862686747308,
+            "y": 1524.002227776336
+          },
+          "nodeIndex": "result_policy_changes",
+          "nodeLineageTag": "321de942-3c31-4ed6-88c8-f631f6fc3223",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 19,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 365.78140206140426,
+            "y": 1397.886727401085
+          },
+          "nodeIndex": "result_innovations_dev",
+          "nodeLineageTag": "3befb41e-6530-4586-a10a-820fa39d0027",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 24,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 354.56812035692383,
+            "y": 1526.4228264818578
+          },
+          "nodeIndex": "result_capdevs",
+          "nodeLineageTag": "dbe79c8d-026c-4237-9a65-1416beb92dcf",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 8,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 343.74189699999954,
+            "y": 1022.5303259999985
+          },
+          "nodeIndex": "result_main_evidences",
+          "size": {
+            "height": 104,
+            "width": 262.91147709101119
+          },
+          "zIndex": 9,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 336.62521099999918,
+            "y": 565.12795900000071
+          },
+          "nodeIndex": "result_single_row_evidences",
+          "size": {
+            "height": 104,
+            "width": 272.91568220161213
+          },
+          "zIndex": 23,
+          "expandedHeight": 176
+        },
+        {
+          "location": {
+            "x": 1610.1722934861755,
+            "y": 733.835365806449
+          },
+          "nodeIndex": "result_links",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 32,
+          "expandedHeight": 296
+        },
+        {
+          "location": {
+            "x": 1618.7057317545634,
+            "y": 1391.1895443775966
+          },
+          "nodeIndex": "result_innovations_use",
+          "nodeLineageTag": "47f7a827-1584-4362-8f57-bf469630d714",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 21,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 934.55772986174861,
+            "y": 619.626150513825
+          },
+          "nodeIndex": "result_kp",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 10,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 806.87512791704955,
+            "y": 431.20719186174853
+          },
+          "nodeIndex": "result_kp_altmetrics",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 11,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1605.8827822292633,
+            "y": 437.80924663248578
+          },
+          "nodeIndex": "result_kp_comodities",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 12,
+          "expandedHeight": 176
+        },
+        {
+          "location": {
+            "x": 1323.3489177154377,
+            "y": 437.46190534792248
+          },
+          "nodeIndex": "result_kp_authors",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 27,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 484.97848154953613,
+            "y": 439.01815831533037
+          },
+          "nodeIndex": "result_kp_keywords",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 13,
+          "expandedHeight": 200
+        },
+        {
+          "location": {
+            "x": 1061.3343194308754,
+            "y": 432.49668434792255
+          },
+          "nodeIndex": "result_kp_metadata",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 14,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 2260.778828,
+            "y": 703.98053299999958
+          },
+          "nodeIndex": "toc_sdgs",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 15,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 2035.5047505542429,
+            "y": 1120.6012609366383
+          },
+          "nodeIndex": "toc_action_areas",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 16,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1940.602558138251,
+            "y": 943.974958486174
+          },
+          "nodeIndex": "results_toc_results",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 25,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 2344.9304266669574,
+            "y": 1139.8385273281247
+          },
+          "nodeIndex": "toc_impact_areas",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 17,
+          "expandedHeight": 272
+        },
+        {
+          "location": {
+            "x": 345.13755999999989,
+            "y": 792.68316499999946
+          },
+          "nodeIndex": "result_partners nodes",
+          "size": {
+            "height": 104,
+            "width": 262.91147709101119
+          },
+          "zIndex": 18,
+          "expandedHeight": 224
+        },
+        {
+          "location": {
+            "x": 345.45439500000043,
+            "y": 905.50263200000018
+          },
+          "nodeIndex": "results_concatenated_values",
+          "size": {
+            "height": 104,
+            "width": 262.91147709101119
+          },
+          "zIndex": 28,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1937.3931387901291,
+            "y": 798.74174833517213
+          },
+          "nodeIndex": "aecd",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 2,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 1932.3650558177792,
+            "y": 441.74785729833832
+          },
+          "nodeIndex": "glossary",
+          "size": {
+            "height": 72,
+            "width": 234
+          },
+          "zIndex": 3,
+          "expandedHeight": 152
+        },
+        {
+          "location": {
+            "x": 477.43324493847581,
+            "y": 285.51994975450208
+          },
+          "nodeIndex": "KRS_concatenated_values",
+          "nodeLineageTag": "360b49d9-b14c-419e-8304-ab0e12ad845f",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 1,
+          "expandedHeight": 128
+        },
+        {
+          "location": {
+            "x": 1046.8038364229901,
+            "y": 1415.8051338400974
+          },
+          "nodeIndex": "result_ip_results_elements",
+          "nodeLineageTag": "e98335c8-6b49-43ac-bc93-6c40027c80a6",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 36,
+          "expandedHeight": 300
+        },
+        {
+          "location": {
+            "x": 798.76120250894451,
+            "y": 1721.6304267909377
+          },
+          "nodeIndex": "result_ip_current_actors",
+          "nodeLineageTag": "192d6b2e-0f53-4620-9256-92b9f91d6ed5",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0,
+          "expandedHeight": 371.87599050918334
+        }
+      ],
+      "name": "Simple diagram",
+      "zoomValue": 70.955543900968763,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "result dashboard",
+  "defaultDiagram": "All tables"
+}
