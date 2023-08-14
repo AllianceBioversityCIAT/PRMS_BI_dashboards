@@ -92701,6 +92701,19 @@
             "summarizeBy": "none"
           },
           {
+            "name": "evidence_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "45f2c6ed-30a7-47fa-a4e1-c1d0efe54a6b",
+            "sourceColumn": "evidence_type",
+            "summarizeBy": "none"
+          },
+          {
             "name": "gender_related",
             "annotations": [
               {
@@ -93584,6 +93597,19 @@
             "summarizeBy": "none"
           },
           {
+            "name": "evidence_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ad028567-c6f5-46b2-a433-a3ff35f8c732",
+            "sourceColumn": "evidence_type",
+            "summarizeBy": "none"
+          },
+          {
             "name": "result_id",
             "annotations": [
               {
@@ -93950,6 +93976,22 @@
             "type": "calculatedTableColumn"
           },
           {
+            "name": "first_train_material",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "e4a71f77-9993-4be8-bba4-31dffce3dadb",
+            "sourceColumn": "[first_train_material]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
             "name": "initiative_lst",
             "annotations": [
               {
@@ -94308,7 +94350,8 @@
                 "    \"kp_comodities\",CONCATENATEX(VALUES(result_kp_comodities[commodity]),result_kp_comodities[commodity],\"; \"),",
                 "    \"krs_countries\",calculate(CONCATENATEX(VALUES('result_countries'[name]),'result_countries'[name],\", \",'result_countries'[name],ASC),result_countries[is_krs]=\"Yes\"),",
                 "    \"SDG_targets\",CONCATENATEX(values(IPSR_CI_sdg_targets),IPSR_CI_sdg_targets[sdgTargetCode],\", \",IPSR_CI_sdg_targets[sdgTargetCode]),",
-                "    \"IPSR_search\",LOWER(max(fact_results[title])&\"|\"&max(fact_results[description])&\"|\"&CONCATENATEX(values(result_ip_results_elements),result_ip_results_elements[result_component_title]&result_ip_results_elements[component_short_title] ,\"|\"))",
+                "    \"IPSR_search\",LOWER(max(fact_results[title])&\"|\"&max(fact_results[description])&\"|\"&CONCATENATEX(values(result_ip_results_elements),result_ip_results_elements[result_component_title]&result_ip_results_elements[component_short_title] ,\"|\")),",
+                "    \"first_train_material\",calculate(CONCATENATEX(VALUES('result_main_evidences'),'result_main_evidences'[link],\", \",'result_main_evidences'[link],ASC),AND(and(result_main_evidences[evidence_type]=\"IPSR_material\",result_main_evidences[Index]=\"1\"),result_main_evidences[is_valid_link]=\"1\"))",
                 ")"
               ],
               "type": "calculated"
