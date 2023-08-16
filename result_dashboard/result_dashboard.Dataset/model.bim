@@ -4,7 +4,7 @@
     "annotations": [
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"aecd\",\"Genebanks\",\"glossary\",\"Last_updated\",\"fact_results\",\"result_actor_types\",\"result_centers\",\"result_countries\",\"result_initiatives\",\"result_institution\",\"result_links\",\"result_np_projects\",\"result_regions\",\"result_capdevs\",\"result_innovations_dev\",\"result_innovations_use\",\"result_kp_altmetrics\",\"result_kp_authors\",\"result_kp_keywords\",\"result_policy_changes\",\"result_main_evidences\",\"result_single_row_evidences\",\"fact_toc\",\"toc_action_areas\",\"toc_sdgs\",\"toc_impact_areas\",\"results_toc_results\",\"result_kp_comodities\",\"result_kp_metadata\",\"result_kp\",\"result_partners nodes\",\"result_ip_results_elements\",\"result_ip_current_actors\",\"result_innovation_package\",\"result_actors\",\"result_actors_unpivot\",\"result_ip_experts\",\"IPSR_CI_action_area_outcomes\",\"IPSR_CI_impact_area_target\",\"IPSR_CI_sdg_targets\",\"result_users_by_institution_type\"]"
+        "value": "[\"aecd\",\"Genebanks\",\"glossary\",\"Last_updated\",\"fact_results\",\"result_actor_types\",\"result_centers\",\"result_countries\",\"result_initiatives\",\"result_institution\",\"result_links\",\"result_np_projects\",\"result_regions\",\"result_capdevs\",\"result_innovations_dev\",\"result_innovations_use\",\"result_kp_altmetrics\",\"result_kp_authors\",\"result_kp_keywords\",\"result_policy_changes\",\"result_main_evidences\",\"result_single_row_evidences\",\"fact_toc\",\"toc_action_areas\",\"toc_sdgs\",\"toc_impact_areas\",\"results_toc_results\",\"result_kp_comodities\",\"result_kp_metadata\",\"result_kp\",\"result_partners nodes\",\"result_ip_results_elements\",\"result_ip_current_actors\",\"result_innovation_package\",\"result_actors\",\"result_actors_unpivot\",\"result_ip_experts\",\"IPSR_CI_action_area_outcomes\",\"IPSR_CI_impact_area_target\",\"IPSR_CI_sdg_targets\",\"result_users_by_institution_type\",\"readiness_groups\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -16074,112 +16074,6 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.714
-                    }
-                  }
-                ]
-              },
-              "result_actors_unpivot.custom": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "result_actors_unpivot",
-                    "ConceptualProperty": "Custom"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "custom": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "tradition": {
-                      "Source": {
-                        "Agent": "OfficeThesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "convention": {
-                      "Source": {
-                        "Agent": "OfficeThesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "norm": {
-                      "Source": {
-                        "Agent": "OfficeThesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "practice": {
-                      "Source": {
-                        "Agent": "OfficeThesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "routine": {
-                      "Source": {
-                        "Agent": "OfficeThesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "habit": {
-                      "Source": {
-                        "Agent": "OfficeThesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "ritual": {
-                      "Source": {
-                        "Agent": "OfficeThesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "pattern": {
-                      "Source": {
-                        "Agent": "OfficeThesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
-                    }
-                  },
-                  {
-                    "way": {
-                      "Source": {
-                        "Agent": "OfficeThesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
                     }
                   }
                 ]
@@ -83655,6 +83549,42 @@
       "returnErrorValuesAsNull": true
     },
     "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "readiness_groups",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = PowerPlatform.Dataflows(null),",
+          "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
+          "    #\"713c7d10-f916-4876-bd76-d6400b6b3f62\" = Workspaces{[workspaceId=\"713c7d10-f916-4876-bd76-d6400b6b3f62\"]}[Data],",
+          "    #\"1f552e29-cc8c-4a61-a4d4-d771321b82ee\" = #\"713c7d10-f916-4876-bd76-d6400b6b3f62\"{[dataflowId=\"aa0ddbe1-f2cb-4cd8-8f13-9344c5dec07b\"]}[Data],",
+          "    result_actor_types_ = #\"1f552e29-cc8c-4a61-a4d4-d771321b82ee\"{[entity=\"result_ip_results_elements\",version=\"\"]}[Data],",
+          "    #\"Changed Type1\" = Table.TransformColumnTypes(result_actor_types_,{{\"result_component_code\", type text}}),",
+          "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Changed Type1\",{\"result_by_innovation_package_id\",\"result_code\", \"result_id\", \"result_component_code\", \"evidence_based_readiness_level_id\", \"use_level_evidence_based level\"}),",
+          "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Removed Other Columns\",{\"result_code\", \"result_id\", \"evidence_based_readiness_level_id\", \"use_level_evidence_based level\", \"result_component_code\"}),",
+          "    #\"Grouped Rows\" = Table.Group(#\"Reordered Columns\", { \"result_code\", \"result_id\", \"evidence_based_readiness_level_id\", \"use_level_evidence_based level\"}, {{\"Count\", each _, type table [result_by_innovation_package_id=nullable number, result_code=nullable number, result_id=nullable number, evidence_based_readiness_level_id=nullable number, use_level_evidence_based level=nullable number, result_component_code=nullable text]}}),",
+          "    #\"Added Custom\" = Table.AddColumn(#\"Grouped Rows\", \"Custom\", each Text.Combine(Table.Column([Count],\"result_component_code\"),\", \")),",
+          "    #\"Removed Columns\" = Table.RemoveColumns(#\"Added Custom\",{\"result_code\", \"result_id\", \"evidence_based_readiness_level_id\", \"use_level_evidence_based level\"}),",
+          "    #\"Expanded Count\" = Table.ExpandTableColumn(#\"Removed Columns\", \"Count\", {\"result_by_innovation_package_id\", \"result_code\", \"result_id\", \"evidence_based_readiness_level_id\", \"use_level_evidence_based level\", \"result_component_code\"}, {\"result_by_innovation_package_id\", \"result_code\", \"result_id\", \"evidence_based_readiness_level_id\", \"use_level_evidence_based level\", \"result_component_code\"}),",
+          "    #\"Renamed Columns\" = Table.RenameColumns(#\"Expanded Count\",{{\"Custom\", \"group_codes\"}})",
+          "in",
+          "    #\"Renamed Columns\""
+        ],
+        "kind": "m",
+        "lineageTag": "0fae8f63-5fba-4710-8a92-f5418a98d31b",
+        "queryGroup": "Innovations"
+      }
+    ],
     "queryGroups": [
       {
         "annotations": [
@@ -87676,7 +87606,7 @@
               }
             ],
             "dataType": "int64",
-            "formatString": "0",
+            "formatString": "#,0",
             "lineageTag": "35dd7551-2b31-4b99-ac01-b9bbf5ff28e6",
             "sourceColumn": "how_many",
             "summarizeBy": "sum"
@@ -87690,7 +87620,7 @@
               }
             ],
             "dataType": "int64",
-            "formatString": "0",
+            "formatString": "#,0",
             "lineageTag": "67ddbbcc-7e23-453f-a2df-c97420259fdd",
             "sourceColumn": "men",
             "summarizeBy": "sum"
@@ -87704,7 +87634,7 @@
               }
             ],
             "dataType": "int64",
-            "formatString": "0",
+            "formatString": "#,0",
             "lineageTag": "25e5e87f-03bd-42d2-93ad-5f2aef91bb16",
             "sourceColumn": "men_youth",
             "summarizeBy": "sum"
@@ -87773,7 +87703,7 @@
               }
             ],
             "dataType": "int64",
-            "formatString": "0",
+            "formatString": "#,0",
             "lineageTag": "366a2a7d-4791-48fd-8163-d9ab4e11bd5c",
             "sourceColumn": "women",
             "summarizeBy": "sum"
@@ -87787,7 +87717,7 @@
               }
             ],
             "dataType": "int64",
-            "formatString": "0",
+            "formatString": "#,0",
             "lineageTag": "d5d96d10-6193-460c-b442-066ae783934e",
             "sourceColumn": "women_youth",
             "summarizeBy": "sum"
@@ -87821,6 +87751,10 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
           }
         ],
         "columns": [
@@ -87835,19 +87769,6 @@
             "dataType": "string",
             "lineageTag": "9ae8604f-9299-42c2-b3bf-3c1e9e047615",
             "sourceColumn": "Category",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Custom",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "db29cb23-5725-4cb6-b024-f4c6e941d1c5",
-            "sourceColumn": "Custom",
             "summarizeBy": "none"
           },
           {
@@ -87903,6 +87824,21 @@
             "lineageTag": "31bee6bb-3639-4ca6-8914-a5dd115c17c3",
             "sourceColumn": "actor_type_id",
             "summarizeBy": "sum"
+          },
+          {
+            "name": "compose category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "result_actors_unpivot[Youth]&\" \"&result_actors_unpivot[gender]",
+            "isDataTypeInferred": true,
+            "lineageTag": "eeb8f0e3-7b84-492a-be34-bb346d7d1994",
+            "summarizeBy": "none",
+            "type": "calculated"
           },
           {
             "name": "gender",
@@ -87998,10 +87934,9 @@
                 "let",
                 "    Source = result_actors,",
                 "    #\"Unpivoted Columns\" = Table.UnpivotOtherColumns(Source, {\"result_actors_id\", \"result_id\", \"actor_type_id\", \"actor_type\", \"other_actor_type\", \"sex_and_age_disaggregation\",\"how_many\"}, \"Category\", \"Value\"),",
-                "    #\"Added Conditional Column\" = Table.AddColumn(#\"Unpivoted Columns\", \"gender\", each if Text.Contains([Category], \"women\") then \"women\" else if Text.Contains([Category], \"men\") then \"men\" else if Text.Contains([Category], \"how_many\") then \"total\" else null),",
+                "    #\"Added Conditional Column\" = Table.AddColumn(#\"Unpivoted Columns\", \"gender\", each if Text.Contains([Category], \"women\") then \"Women\" else if Text.Contains([Category], \"men\") then \"Men\" else if Text.Contains([Category], \"how_many\") then \"total\" else null),",
                 "    #\"Added Conditional Column1\" = Table.AddColumn(#\"Added Conditional Column\", \"Youth\", each if Text.Contains([Category], \"youth\") then \"Youth\" else if not Text.Contains([Category], \"youth\") then \"Non-youth\" else \"Error\"),",
-                "    #\"Added Conditional Column2\" = Table.AddColumn(#\"Added Conditional Column1\", \"Custom\", each if [gender] = \"women\" then \"#e37222\" else if [gender] = \"men\" then \"#ffc84f\" else \"#ffc84f\"),",
-                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Added Conditional Column2\",{\"result_actors_id\", \"result_id\", \"actor_type_id\", \"actor_type\", \"other_actor_type\", \"sex_and_age_disaggregation\", \"gender\", \"Category\", \"Value\"})",
+                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Added Conditional Column1\",{\"result_actors_id\", \"result_id\", \"actor_type_id\", \"actor_type\", \"other_actor_type\", \"sex_and_age_disaggregation\", \"gender\", \"Category\", \"Value\"})",
                 "in",
                 "    #\"Reordered Columns\""
               ],
@@ -89179,6 +89114,30 @@
             "lineageTag": "a4979cef-4703-4397-b02e-3e129926f30b",
             "sourceColumn": "potential_score",
             "summarizeBy": "sum"
+          },
+          {
+            "name": "readiness scale",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "if(result_innovation_package[readiness_score] >= 0 &&  result_innovation_package[readiness_score] < 16, \"Very low\",",
+              "                    if(result_innovation_package[readiness_score] >= 16 &&  result_innovation_package[readiness_score] < 32.4, \"Low\",",
+              "                      if(result_innovation_package[readiness_score] >= 32.4 &&  result_innovation_package[readiness_score] < 48.6, \"Medium\",",
+              "                        if(result_innovation_package[readiness_score] >= 48.6 &&  result_innovation_package[readiness_score] < 64.8, \"High\",",
+              "                        \"Very high\")",
+              "                      )",
+              "                    )",
+              ")"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "92b0af20-10dc-40b3-b84f-aaa116c4223b",
+            "summarizeBy": "none",
+            "type": "calculated"
           },
           {
             "name": "readiness_level",
@@ -90627,6 +90586,10 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
           }
         ],
         "columns": [
@@ -90642,6 +90605,21 @@
             "lineageTag": "f9db1938-f4f8-4cca-b491-e2f3338ab009",
             "sourceColumn": "component_short_title",
             "summarizeBy": "none"
+          },
+          {
+            "name": "compose_component_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "result_ip_results_elements[result_component_code]&\"-\"&result_ip_results_elements[result_component_title]",
+            "isDataTypeInferred": true,
+            "lineageTag": "e08d1801-c180-4db1-9b1e-fea32b681783",
+            "summarizeBy": "none",
+            "type": "calculated"
           },
           {
             "name": "current_innovation_readiness_level_id",
@@ -90764,6 +90742,19 @@
             "lineageTag": "9c552870-b7d3-431c-9260-0e63b90f92b8",
             "sourceColumn": "evidenced_based_score",
             "summarizeBy": "sum"
+          },
+          {
+            "name": "group_codes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "68aea1a2-5e0d-4673-ba09-25ee3ad09107",
+            "sourceColumn": "group_codes",
+            "summarizeBy": "none"
           },
           {
             "name": "ipsr_component_role",
@@ -91127,9 +91118,11 @@
                 "    Workspaces = Source{[Id=\"Workspaces\"]}[Data],",
                 "    #\"713c7d10-f916-4876-bd76-d6400b6b3f62\" = Workspaces{[workspaceId=\"713c7d10-f916-4876-bd76-d6400b6b3f62\"]}[Data],",
                 "    #\"1f552e29-cc8c-4a61-a4d4-d771321b82ee\" = #\"713c7d10-f916-4876-bd76-d6400b6b3f62\"{[dataflowId=\"aa0ddbe1-f2cb-4cd8-8f13-9344c5dec07b\"]}[Data],",
-                "    result_actor_types_ = #\"1f552e29-cc8c-4a61-a4d4-d771321b82ee\"{[entity=\"result_ip_results_elements\",version=\"\"]}[Data]",
+                "    result_actor_types_ = #\"1f552e29-cc8c-4a61-a4d4-d771321b82ee\"{[entity=\"result_ip_results_elements\",version=\"\"]}[Data],",
+                "    #\"Merged Queries\" = Table.NestedJoin(result_actor_types_, {\"result_by_innovation_package_id\"}, readiness_groups, {\"result_by_innovation_package_id\"}, \"readiness_groups\", JoinKind.LeftOuter),",
+                "    #\"Expanded readiness_groups\" = Table.ExpandTableColumn(#\"Merged Queries\", \"readiness_groups\", {\"group_codes\"}, {\"group_codes\"})",
                 "in",
-                "    result_actor_types_"
+                "    #\"Expanded readiness_groups\""
               ],
               "type": "m"
             }
@@ -94024,6 +94017,102 @@
             "type": "calculatedTableColumn"
           },
           {
+            "name": "ipsr_AA_outcomes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "2c22e7d1-e9b5-4ae6-bca6-8dc44867732c",
+            "sourceColumn": "[ipsr_AA_outcomes]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "ipsr_SDG_targets",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "a78125a6-424e-475e-b24a-d00480cb3239",
+            "sourceColumn": "[ipsr_SDG_targets]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "ipsr_actors",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "599afbad-5b96-436a-b766-e7265114e345",
+            "sourceColumn": "[ipsr_actors]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "ipsr_ia_targets",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "04f7e850-9990-4e7d-a133-e91fa75b6c4e",
+            "sourceColumn": "[ipsr_ia_targets]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "ipsr_inst_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "d5ee163d-c474-4cb2-a42d-f84ed588e6a5",
+            "sourceColumn": "[ipsr_inst_type]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "ipsr_scaling_partners_lst",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "f60ad771-7809-475e-b85c-fe8a656ebb00",
+            "sourceColumn": "[ipsr_scaling_partners_lst]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
             "name": "kp_agrovoc",
             "annotations": [
               {
@@ -94343,6 +94432,7 @@
                 "    \"partners_lst\",if(max(fact_results[no_applicable_partner])=1,\"Marked as not applicable\",CALCULATE(CONCATENATEX(values(result_institution[institution_composed_name]),\" • \"&result_institution[institution_composed_name],UNICHAR(10)),result_institution[rol_id]=2)), ",
                 "    \"capdev_partners_lst\",CALCULATE(CONCATENATEX(values(result_institution[institution_name]),\" • \"&result_institution[institution_name],UNICHAR(10)),result_institution[rol_id]=3),",
                 "    \"policy_partners_lst\",CALCULATE(CONCATENATEX(values(result_institution[institution_name]),\" • \"&result_institution[institution_name],UNICHAR(10)),result_institution[rol_id]=4),",
+                "    \"ipsr_scaling_partners_lst\",CALCULATE(CONCATENATEX(values(result_institution[institution_name]),\" • \"&result_institution[institution_name],UNICHAR(10)),result_institution[rol_id]=5),",
                 "    \"all_institutions_lst\",CONCATENATEX(values(result_institution[institution_name]),\" • \"&result_institution[institution_name],UNICHAR(10)),",
                 "    \"kp_authors\",CONCATENATEX(VALUES(result_kp_authors[author_name]),result_kp_authors[author_name],\"; \"),",
                 "    \"kp_keywords\",calculate(CONCATENATEX(VALUES(result_kp_keywords[keyword]),result_kp_keywords[keyword],\"; \",result_kp_keywords[keyword],ASC),result_kp_keywords[is_agrovoc] <> 1),",
@@ -94351,7 +94441,12 @@
                 "    \"krs_countries\",calculate(CONCATENATEX(VALUES('result_countries'[name]),'result_countries'[name],\", \",'result_countries'[name],ASC),result_countries[is_krs]=\"Yes\"),",
                 "    \"SDG_targets\",CONCATENATEX(values(IPSR_CI_sdg_targets),IPSR_CI_sdg_targets[sdgTargetCode],\", \",IPSR_CI_sdg_targets[sdgTargetCode]),",
                 "    \"IPSR_search\",LOWER(max(fact_results[title])&\"|\"&max(fact_results[description])&\"|\"&CONCATENATEX(values(result_ip_results_elements),result_ip_results_elements[result_component_title]&result_ip_results_elements[component_short_title] ,\"|\")),",
-                "    \"first_train_material\",calculate(CONCATENATEX(VALUES('result_main_evidences'),'result_main_evidences'[link],\", \",'result_main_evidences'[link],ASC),AND(and(result_main_evidences[evidence_type]=\"IPSR_material\",result_main_evidences[Index]=\"1\"),result_main_evidences[is_valid_link]=\"1\"))",
+                "    \"first_train_material\",calculate(CONCATENATEX(VALUES('result_main_evidences'),'result_main_evidences'[link],\", \",'result_main_evidences'[link],ASC),AND(and(result_main_evidences[evidence_type]=\"IPSR_material\",result_main_evidences[Index]=\"1\"),result_main_evidences[is_valid_link]=\"1\")),",
+                "    \"ipsr_ia_targets\",CONCATENATEX(VALUES(IPSR_CI_impact_area_target),\" • [\"&IPSR_CI_impact_area_target[impactAreaName]&\"] \"&IPSR_CI_impact_area_target[target_SMO_code]&\" - \"&IPSR_CI_impact_area_target[IA_target],UNICHAR(10), IPSR_CI_impact_area_target[target_SMO_code],ASC),",
+                "    \"ipsr_SDG_targets\",CONCATENATEX(VALUES(IPSR_CI_sdg_targets),\" • [\"&IPSR_CI_sdg_targets[sdg.short_name]&\"] \"&IPSR_CI_sdg_targets[sdgTargetCode]&\" - \"&IPSR_CI_sdg_targets[sdgTarget],UNICHAR(10), IPSR_CI_sdg_targets[sdg.financial_code]&IPSR_CI_sdg_targets[clarisa_sdg_target_id],ASC),",
+                "    \"ipsr_AA_outcomes\",CONCATENATEX(VALUES(IPSR_CI_action_area_outcomes),\" • [\"&IPSR_CI_action_area_outcomes[actionAreaName]&\"] \"&IPSR_CI_action_area_outcomes[outcomeSMOcode]&\" - \"&IPSR_CI_action_area_outcomes[outcomeStatement],UNICHAR(10), IPSR_CI_action_area_outcomes[action_area_outcome_id],ASC),",
+                "     \"ipsr_actors\",CONCATENATEX(VALUES(result_actors),\" • [\"&result_actors[actor_type]&\":\"&result_actors[how_many]&\"] Women:\"&result_actors[women]&\" Youth-women:\"&result_actors[women_youth]&\"] Men:\"&result_actors[men]&\"] Youth-men:\"&result_actors[men_youth],UNICHAR(10), result_actors[actor_type],ASC),",
+                "     \"ipsr_inst_type\",calculate(CONCATENATEX(VALUES(result_users_by_institution_type),\" • \"&result_users_by_institution_type[institution type]&\":\"&result_users_by_institution_type[how_many],UNICHAR(10),result_users_by_institution_type[institution type],ASC),result_users_by_institution_type[institution_roles_id] = 5)",
                 ")"
               ],
               "type": "calculated"
